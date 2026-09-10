@@ -12,11 +12,11 @@ public class MySQLConnectionFactory {
 	// API JDBC >= 3 e Java >= 5
 	private static final String JDBC_DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
 
-	private static final String DATABASE_URL = "jdbc:mysql://127.0.0.1/facebook";
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3307/facebook";
 
 	// Credenciais
 	static final String USER = "root";
-	static final String PASSWORD = "root1234";
+	static final String PASSWORD = "1234";
 	
 	public static Connection getConnection() throws ModelException {
 		// API JDBC < 3 e Java < 5

@@ -9,6 +9,10 @@ public class DAOFactory {
 	
 	// Para o DAOFactory funcionar para suas classes de domínio, adicione na 
 	// lista suas interfaces e classes DAO na listDAOsInterfaces
+	
+	private DAOFactory() {
+		//para impedir instanciação
+	}
 	static {
 		listDAOsInterfaces.put(PostDAO.class, new MySQLPostDAO());
 		listDAOsInterfaces.put(UserDAO.class, new MySQLUserDAO());
