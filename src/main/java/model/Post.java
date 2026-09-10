@@ -19,6 +19,7 @@ public class Post {
 		setPostDate(Calendar.getInstance().getTime());
 	}
 	
+	
 	public String getContent() {
 		return content;
 	}
