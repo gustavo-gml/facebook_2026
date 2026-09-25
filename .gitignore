@@ -1,0 +1,14 @@
+# Eclipse local files and folders
+.launch
+.settings/
+.classpath
+.project
+
+# Compiled class files
+.class
+bin/
+
+# Temporary and log files
+.log
+.tmp/
+build/
